@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1953
+
+Vimpress is a nifty plugin for Vim which allows you to publish and edit posts on your wordpress blog.
+
+Features
+    * Get a list of all articles
+    * Write a new article
+    * Edit a current article
+    * Save (yeah, no kidding)
+    * Supports categories
+    * Supports tags1
+
+Commands
+    * :BlogList
+      Lists all articles in the blog
+    * :BlogNew
+      Opens page to write new article
+    * :BlogOpen id
+      Opens the article for edition
+    * :BlogSend
+      Saves the article to the blog
+
+Projects page : http://www.friggeri.net/projets/vimpress/
