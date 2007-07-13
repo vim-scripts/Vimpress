@@ -165,7 +165,7 @@ def blog_open_post(id):
     vim.current.buffer[0] =   "\"=========== Meta ============\n"
     vim.current.buffer.append("\"StrID : "+str(id))
     vim.current.buffer.append("\"Title : "+(post["title"]).encode("utf-8"))
-    vim.current.buffer.append("\"Cats  : "+",".join(post["categories"]))
+    vim.current.buffer.append("\"Cats  : "+",".join(post["categories"]).encode("utf-8"))
     if enable_tags:
       vim.current.buffer.append("\"Tags  : "+(post["mt_keywords"]).encode("utf-8"))
     vim.current.buffer.append("\"========== Content ==========\n")
